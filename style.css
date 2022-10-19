@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper
+{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo
+{
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    color: red;
+}
+
+.menu
+{
+    float: right;
+}
+
+nav
+{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1;
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li
+{
+    float: left;
+}
+
+nav ul li a
+{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.welcome
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vh;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-vector/stone-wall-monochrome-vektor-illustration_449764-298.jpg?w=996');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: red;
+}
+
+.btn
+{
+    background: black;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 12px 60px 12px 60px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn:hover
+{
+    color: black;
+    background-color: red;
+    transition: 1s;
+}
+
+.pic1
+{
+    padding-top: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-bottom: 100px;
+}
+
+.pic1:before
+{
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, black, transparent);
+    right: 0px;
+}
+
+.foto
+{
+    width: 70%;
+    position: relative;
+    border-radius: 5px;
+}
+
+#profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.pic1
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom
+{
+    width: 60%;
+    padding: 80px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+}
+
+.deskripsi
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tengah
+{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    background-image: url('https://img.freepik.com/premium-vector/stone-wall-monochrome-vektor-illustration_449764-298.jpg?w=996');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.tengah:after
+{
+    content: '';
+    position: absolute;
+    bottom: -61em;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, black, transparent);
+    right: 0px;
+}
+
+.listPend
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.logoPend
+{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.logoPend img
+{
+    width: 80%;
+    border-radius: 20%;
+    box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+-webkit-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 1px 10px 20px 0px rgba(0,0,0,0.65);
+}
+
+.kolom2
+{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+}
+
+.logoPend a
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logoPend p
+{
+    color: #fff;
+}
+
+.logoPend a:hover
+{
+    text-decoration: underline;
+    color: red;
+    transition: 1s;
+}
+
+.listPend:before
+{
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, black, transparent);
+    right: 0px;
+}
+
+.tengah2
+{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.listskill
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 5em;
+}
+
+.skillcontent
+{
+    width: 50%;
+    margin: 0;
+}
+
+.skillcontent p
+{
+    color: red;
+}
+
+.skillcontent img
+{
+    width: 15em;
+}
+
+.bar
+{
+    background: #F5F0BB;
+    margin-left: 20px;
+    display: block;
+    width: 85%;
+    height: 18px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.bar span
+{
+    height: 20px;
+    float: left;
+    background: linear-gradient(to right, #d13939, red);
+}
+
+.renang{
+    width: 90%;
+}
+
+.gitar{
+    width: 50%;
+}
+
+.tengah3:after
+{
+    content: '';
+    position: absolute;
+    top: 183.2rem;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, black, transparent);
+    right: 0px;
+}
+
+.tengah3
+{
+    text-align: center;
+    width: 100%;
+    background-image: url('https://img.freepik.com/premium-vector/stone-wall-monochrome-vektor-illustration_449764-298.jpg?w=996');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;   
+}
+
+.kolom3
+{
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.kolom3 h2
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fa
+{
+    padding: 35px;
+    color: white;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+
+.fa-instagram:hover
+{
+    color: orange;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.fa-whatsapp:hover
+{
+    color: green;
+    transition: 1s;
+    text-decoration: underline;
+}
